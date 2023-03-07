@@ -10,7 +10,7 @@ const CANVAS_WIDTH = canvas.width = 600;
 const CANVAS_HEIGHT = canvas.height = 600;
 
 const playerImage = new Image();
-playerImage.src = 'bird1-nonebg-lined.png';
+playerImage.src = "bird1.png";
 const spriteWidth = 540;
 const spriteHeight = 520;
 
@@ -47,7 +47,6 @@ animationStates.forEach((state, index) => {
     }
     spriteAnimations[state.name] = frames;
 });
-console.log(spriteAnimations);
 
 function animate() {
     ctx.clearRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
