@@ -10,7 +10,7 @@ const CANVAS_WIDTH = canvas.width = 600;
 const CANVAS_HEIGHT = canvas.height = 600;
 
 const playerImage = new Image();
-playerImage.src = 'img/bird1-nonebg-lined.png';
+playerImage.src = 'bird1-nonebg-lined.png';
 const spriteWidth = 540;
 const spriteHeight = 520;
 
